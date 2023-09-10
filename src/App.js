@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import Tables from './Tables';
+import WineGammaStatistics from './Gamma';
 
 function App() {
   return (
-    <Tables />
+   <div>
+     <Tables />
+    <WineGammaStatistics />
+   </div>
+
   );
 }
 
